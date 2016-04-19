@@ -8,15 +8,14 @@ Pues bien, si desea cooperar con la traducción de la documentación, sólo tien
 
 Sólo tiene que introducir un `issue` y comentar qué tema o temas que usted quiere tener una **responsabilidad**  de traducir.
 Pedimos que esa parte es bien tomado en serio, ya que una vez separado el tema de la traducción para usted, alguien más lo hará.
-A partir do seu comentário, um dos nossos contribuidores vai colocar seu usuário na frente do tópico escolhido.
+A partir do seu comentário, uno de nuestros colaboradores pondrá su usuario frente al tema elegido.
 Veja nesse [exemplo](https://github.com/IonicBrazil/ionic2-docs/issues/8).
 
 Después de eso, es sólo que hacer 'fork' nuestro repositorio y escribir sus traducciones.
 ## Enviando as traducciones
 
 ### Commits  
-Commitar apenas os arquivos que estão sendo modificados, **NÃO** utilizar `git add .` e **SIM** `git add nome_arquivo`. Assim poderemos evitar possíveis conflitos na hora do PR(Pull request).
-HAcer commit sólo de los archivos que se están modificando, **NO**  usar `git add .` y ** Sí ** `git add nome_archivo`. Así podemos evitar posibles conflictos en el momento de hace PR.
+Hacer commit sólo de los archivos que se están modificando, **NO**  usar `git add .` y ** Sí ** `git add nome_archivo`. Así podemos evitar posibles conflictos en el momento de hace PR.
 
 ### Pull request
 Después de que haya terminado su traducción, sólo tiene que hacer una ` pull request` en nuestro repositorio.
@@ -34,7 +33,7 @@ No se olvide de vincular el director [README] (https://github.com/IonicBrazil/io
 
 Recordando que no creen OS que tienen conflictos. Si, al crear su PR se encuentra un conflicto, por favor, resolver los conflictos antes de crear el PR. Sólo se aceptarán para su revisión PR experto para fusionarse con confictos serán cerradas inmediatamente.
 
-### Revisão
+### Revisión
 Entonces, uno de nuestros colaboradores a analizar todo el texto para ver si todo está correcto. La superación de esta parte se hace una `merge` de la traducción.
 
 Al final de todo, que ayudó a la comunidad ionita.

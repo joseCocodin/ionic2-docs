@@ -1,11 +1,11 @@
-# Glossário
-Essa página tem como objetivo reunir termos técnicos (ou não) e suas respectivas traduções para mantermos uma padrão uniforme nos capítulos.  Esse é um documento orgânico que irá ser atualizado de forma colaborativa a medida que novos termos forem surgindo.
+# Glosario
+Esta página pretende reunir a los términos técnicos (o no) y sus traducciones para mantener un nivel uniforme en los capítulos. Este es un documento orgánico que será actualizado en colaboración como están surgiendo nuevos términos.
 
-# Traduções (Original - Tradução)
+# Traducciones (Original - traducido)
 
 * Component - Componente
-* Directive - Diretiva
-* Selector - Seletor
-* Service - Serviço
-* Provider - provedor
-* Annotation - anotação
+* Directive - Directiva
+* Selector - Selector
+* Service - Servicio
+* Provider - Proveedor
+* Annotation - Anotación

@@ -1,23 +1,22 @@
 # 1.3 Ionic 2 Tutorial
 
-Agora que você tem o [Ionic instalado juntamente com suas dependências](01b-instalation.md), você pode desenvolver seu primeiro aplicativo! Esta seção irá guiá-lo através do processo de iniciar uma nova aplicação, adicionando páginas, navegação entre as páginas, e muito mais. Vamos começar!
+Ahora que ha de [Ionic instalado junto con sus dependencias](01b-instalation.md),puede desarrollar su primera aplicación! Esta sección le guiará a través del proceso de iniciar una nueva aplicación mediante la adición de páginas, la navegación entre las páginas, y más. ¡Vamos a empezar!
 
-## Iniciano um novo aplicativo Ionic 2
+## Inicio de una nueva aplicación Ionic 2
 
-Vanos desenvolver um aplicativo! Use o comando **start** para inicializar um novo aplicativo Ionic. Especifique que você quer que ele seja um aplicativo Ionic 2 passando a opção **--v2**.  Nós também especificamos que o modelo **tutorial** poderia ser usado.
+Vamos a desarrollar una aplicación! Utilice el comando **start** para inicializar una nueva aplicación Ionic. Especifica que desea que sea una aplicación Ionic 2 a través de la opción **--v2**. ambién se especifica que el modelo **tutorial** podería ser usado.
 ```
 $ ionic start MyIonic2Project tutorial --v2
 ```
 
-Isso vai baixar o Ionic 2, instalar os [módulos npm](../../glossario.md) para a aplicação, e obter o [Cordova](../../glossario.md) configurado e pronto para utilizar.
+Esto va a descargar el Ionic 2, instale el [módulos npm](../../glossario.md) para la aplicación, y obtener [Cordova](../../glossario.md) configurado e listo para utilizar.
 
-Quer usar o TypeScript em vez disso? Passe o sinalizador **--ts** e obtenha uma configuração de projeto de TypeScript em seu lugar.
-
-Você pode ter notado que nós passamos **tutorial** para o comando **ionic start**. Isto diz para o Ionic inicializar seu aplicativo usando o [modelo tutorial](https://github.com/driftyco/ionic2-starter-tutorial). Se você não especificar um modelo executando **ionic start MyIonic2Project --v2**, o [tab starter](https://github.com/driftyco/ionic2-starter-tabs) será utilizado.
+Desea utilizar TypeScript en su lugar? Pasar el indicador **--ts** y obtener un ajuste del proyecto de TypeScript en su lugar.
+Usted puede haber notado que hemos pasado **tutorial** para el comando **ionic start**. Esto le dice al Ionic iniciar una aplicación utilizando el [modelo tutorial](https://github.com/driftyco/ionic2-starter-tutorial). Si no se especifica un modelo de funcionamiento **ionic start MyIonic2Project --v2**, o [tab starter](https://github.com/driftyco/ionic2-starter-tabs) será utilizado.
 
 ## Visualizando o aplicativo em um navegador
 
-Agora, você pode **cd** para entrar na pasta que foi criada. Para obter uma visualização rápida do seu aplicativo no navegador, use o comando **serve**.
+Ahora usted puede **cd** para entrar en la carpeta que creó. Para una visión rápida de su aplicación en el navegador, utilice el comando **serve**.
 ```
 $ cd MyIonic2Project/
 $ ionic serve
@@ -25,6 +24,5 @@ $ ionic serve
 
 ![tutorial-screen](tutorial-screen.png)
 
-Você deverá ver a mensagem de boas vindas mostrada acima, se tudo foi instalado com sucesso.
-
-Na próxima seção, vamos falar sobre a estrutura do projeto criado pelo comando **ionic**.
+Debería ver el mensaje de bienvenida se muestra arriba si se ha instalado correctamente.
+En la siguiente sección, vamos a hablar de la estructura del proyecto creado por el comando **ionic**.

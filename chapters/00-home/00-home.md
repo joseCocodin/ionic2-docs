@@ -1,50 +1,36 @@
-# 0.0 IONIC DOCS
+# 0.0 IÓNICA DOCS
 
 
-[Começando](/chapters/01-introducao/01a-welcome.md)
+[Arranque] (/ capítulos / 01-introducción / 01a-welcome.md)
 
-Tudo que você precisa saber para começar com o Ionic.
-
-
-
-[Componentes de Interface](/chapters/02-componentes)
-
-Uma análise compreensiva sobre os componentes de interface do ionic - tudo que você irá precisar.
+Todo lo que necesita saber para empezar con Ionic.
 
 
 
-[API](/chapters/07-api)
+[Componentes de interface] (/ capítulos / 02-componentes)
 
-Explore nossa API para obter informações sobre métodos, propriedades e eventos.
-
-
-
-[Temas](/chapters/04-temas)
-
-Aprenda como facilmente customizar e modificar o desing de seus app's para se encaixar com sua marca.
+Un análisis exhaustivo de los componentes de la interfaz de Ionic - todo lo que necesita.
 
 
 
-[Ionicons](/chapters/08-recursos)
+[API] (/ capítulos / 07-api)
 
-Mais de 900 ícones com desing personalizado. Licença MIT &amp; prontos para usar com o Ionic.
-
-
-
-[Fórum da comunidade](https://forum.ionicframework.com/)
-
-Passe por lá e deixe seu Olá. Pergunte algo ou compartilhe algo interessante.
+Explora nuestra API para obtener información sobre los métodos, propiedades y eventos.
 
 
 
+[Temas] (/ capítulos / 04-temas)
+
+Aprender a personalizar y modificar el diseño de la aplicación de encajar con su marca fácilmente.
 
 
 
+[Ionicons] (/ capítulos / 08-recursos)
+
+Más de 900 iconos con diseño personalizado. Licencia MIT & amp; listo para usar con Ionic.
 
 
 
+[Foros de la comunidad] (https://forum.ionicframework.com/)
 
-
-
-
-
+Pasar por aquí y saludar. Pregunta algo o compartir algo interesante.

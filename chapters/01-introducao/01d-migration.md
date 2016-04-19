@@ -1,10 +1,10 @@
 # 1.4 Conceitos de Migração
 
-Ionic 2 é construído em cima de Angular 2, que é uma reescrita completa do framework original. Todas as partes do Angular que você conhece ainda estão lá, mas há nova sintaxe e as mudanças estruturais sobre os quais os desenvolvedores precisam estar cientes. Para uma visão geral das mudanças no Angular 2, dê uma olhada em [Aprenda Angular 2](http://learnangular2.com/).
+Ionic 2 se basa en Angular 2, que es una reescritura completa del framework original. Todas las partes do Angular que usted sabe que todavía están allí, pero hay nuevos cambios en la sintaxis y estructurales en las que los desarrolladores deben tener en cuenta. Para una visión general de los cambios en el Angular 2, echar un vistazo a [Aprenda Angular 2](http://learnangular2.com/).
 
-Em Ionic 2, devem se sentir muito familiar com as coisas. Todos os conceitos de Ionic V1 ainda estão na V2, embora eles podem ser ligeiramente diferentes. Você ainda tem visões e controladores como você faz na V1, mas em V2, elas foram fundidas em uma instância.
+En Ionic 2, deben sentirse muy familiarizados con las cosas. Todos los conceptos de Ionic V1 aun están en la V2, aunque pueden ser ligeramente diferentes. Vtodavía tiene vistas y controladores como lo hace en V1, mas em V2, que se fusionaron en una instancia.
 
-Veja este exemplo V1.
+Vea este exemplo V1.
 
 V1
 
@@ -23,7 +23,7 @@ V1
 })
 ```
 
-Você pode escrever isso em V2 como este:
+Puede escribirlo en V2 de esta manera:
 
 ```ts
 @Page({
@@ -36,15 +36,16 @@ export class MainCmp {
 }
 ```
 
-Outras mudanças, como mudanças de navegação, são muito diferentes, mas por boas razões, como nós prometemos. Agora, você pode tratar componentes como pontos de vista arbitrários e navegar por eles do jeito que você quiser. Isto torna a navegação muito mais flexível e permite pilhas de navegação muito mais nativa de estilo.
+Otros cambios, como los cambios de navegación son muy diferentes, pero por una buena razón, como nos prometieron. Ahora se puede tratar como componentes vistas arbitrarias y navegar por ellas de la manera deseada. Esto hace que la navegación mucho más flexible y permite estilo baterías de navegación más nativo.
 
-# Migrando do Angular 1
+# Migrando de Angular 1
 
 Enquanto Angular 2 requer aplicativos para ser atualizado para a mudança de sintaxe, os desenvolvedores podem ser pró-ativos e certificar se o seu aplicativo é atualizável, seguindo as melhores práticas e trabalhar com o guia Angular Style de John Papa ou o guia Angular Style de Todd Motto. Ambos irão fornecer-lhe os passos necessários para preparar seu código para a migração.
+Mientras Angular 2 dispone que las solicitudes para ser ascendidos a la variación de la sintaxis, los desarrolladores pueden ser proactivos y asegurarse de que su aplicación es actualizable, siguiendo las mejores prácticas y el trabajo con la guía de estilos de Angular de John Papa o la guía de estilos de Angular Todd Motto. Ambos le proporcionará los pasos necesarios para preparar su código para la migración.
 
 ## ControllerAs Syntax
 
-ControllerAs Syntax é um recurso do Angular 1.x aonde ao invés de você ligar dados para **$scope**, você pode ligar para a instância direta do controlador, como alternativa. Isso faz com que a migração de um controlador de  Angular 1.x para uma classe Angular 2 seja muito mais fácil. É bastante fácil migrar para controllerAs de um controlador tradicional:
+ControllerAs sintaxis es una característica de Angular 1.x donde en lugar de enlazar los datos de **$scope**, puede llamar a la instancia directa del responsable del controlador, como alternativa. Esto hace que la migración de un controlador de  Angular 1.x para una clase Angular 2 sea mucho mas fácil. É bastante fácil migrar para controllerAs de un controlador tradicional:
 
 _index.html_
 
@@ -66,7 +67,7 @@ _app.js_
 })
 ```
 
-Para converter isso em sintaxe **controllerAs** você só tem que mudar algumas coisas.
+Para convertir eso em sintasis **controllerAs** sólo hay que cambiar algunas cosas.
 
 _index.html_
 
@@ -90,7 +91,7 @@ _app.js_
 
 ## TypeScript
 
-TypeScript é um super conjunto de JavaScript que fornece Classes ES6 e tipo de anotações em seu código. Agora, com a adoção de TypeScript você pode escrever seu código como Classes ES6 que serão fáceis para migrar para Ionic 2. A melhor parte é que qualquer JavaScript válido também é TypeScript válido, assim você pode converter o seu pedaço de código por parte. Se você aproveitar o seu controlador anterior, você pode facilmente convertê-lo em uma classe TypeScript como esta:
+TypeScript es un superconjunto dee JavaScript que proporciona Classes ES6 y escribir anotaciones en su código. Ahora, con la adopción de TypeScript se puede escribir el código como Classes ES6 que serán fáciles de emigrar a Ionic 2.La mejor parte es que cualquier JavaScript válido también es TypeScript válido, por lo que puede convertir su código por partes. Si a aprovechar su controlador anterior, se puede convertir fácilmente en una classe TypeScript como esta:
 
 _app.js_
 
@@ -116,7 +117,7 @@ export class MainCtrl{
 
 ## Estrutura do projeto
 
-Com o Angular 1 era uma prática manter todo o seu JavaScript juntos e separados de seus modelos. Desde Ionic 2 e Angular 2 estará se migrando para uma configuração baseada em componente, você pode organizar o seu projeto para ajudar mentalmente a aplicar esse conceito. Assim, um projeto cujo diretório parecerá com isso...
+Con Angular 1 era una práctica para mantener toda sus JavaScript juntos y separados de sus modelos. Desde Ionic 2 y Angular 2 cambiará a una configuración basada en componentes, puede organizar su proyecto para ayudar a aplicar este concepto mental. Por lo tanto, un directorio de un proyecto con este aspecto...
 
 ```
 |-www/
@@ -133,7 +134,7 @@ Com o Angular 1 era uma prática manter todo o seu JavaScript juntos e separados
 |-index.html
 ```
 
-poderia começar a ser reorganizado para se parecer com isto:
+podría comenzar a reorganizarse para tener este aspecto::
 
 ```
 |-www/
@@ -150,4 +151,4 @@ poderia começar a ser reorganizado para se parecer com isto:
 |-app.js
 ```
 
-Organizar o seu projeto como este pode ajudá-lo na mentalidade de que cada um de seu aplicativo views/states são um componente, com um modelo e um controlador.
+Organizar su proyecto de esta manera le puede ayudar a concienciarse de que cada vista / estados de aplicación son un componente con un modelo y un controlador.

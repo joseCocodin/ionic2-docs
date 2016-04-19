@@ -1,39 +1,41 @@
-# 1.5 Conceitos Básicos
+# 1.5 Conceptos Básicos
 
-Se você é completamente novo para Ionic e/ou desenvolvimento de aplicativos híbridos para celular, ele pode ser útil para obter uma compreensão de alto nível do núcleo da filosofia, conceitos e ferramentas por trás do Ionic. As informações a seguir podem ajudá-lo a se familiarizar com o Ionic e como ele funciona.
+Si usted es completamente nuevo para Ionic y / o desarrollo de aplicaciones móviles híbridas, puede ser útil para una comprensión de alto nivel del núcleo de la filosofía, los conceptos y las herramientas detrás del Ionic. La siguiente información puede ayudarlo a familiarizarse con el Ionic y cómo funciona.
 
-## O que é Ionic?
+## Que es Ionic?
 
-Ionic é um SDK de código aberto que permite aos desenvolvedores criar aplicativos móveis de desenpeho de alta qualidade utilizando tecnologias web familiares (HTML, CSS e JavaScript).
+Ionic es un SDK de código abierto que permite a los desarrolladores crear aplicaciones móviles para un rendimiento de alta calidad utilizando tecnologías web familiares (HTML, CSS e JavaScript).
 
-Ionic está voltado principalmente para a aparência, ou a interação UI, de um aplicativo. Isto significa que não é um substituto para o PhoneGap ou o seu framework JavaScript favorito. Em vez disso, Ionic se encaixa bem com esses projetos, a fim de simplificar uma grande parte do seu processo de desenvolvimento de aplicativos: o front-end. Confira [“Where does the Ionic Framework fit in?”](http://blog.ionic.io/where-does-the-ionic-framework-fit-in/) para obter uma boa compreensão da filosofia base do Ionic e seus objetivos.
+Ionic se centra principalmente en la apariencia, o la interfaz de usuario de la interacción de una aplicación. Esto significa que no es un sustituto de PhoneGap o su framework favorito JavaScript.
+En su lugar, Ionic encaja bien con estos proyectos con el fin de simplificar una gran parte de su proceso de desarrollo de aplicaciones: el front-end. Vea [“Where does the Ionic Framework fit in?”](http://blog.ionic.io/where-does-the-ionic-framework-fit-in/) para obtener una buena comprensión de la filosofía de Ionic y sus objetivos.
 
-**Ionic exige actualmente AngularJS a fim de trabalhar em seu pleno potencial.** Enquanto você ainda pode usar a parte CSS do frameworks, você vai perder interações poderosas de interface do usuário como gestos, animações e outras coisas. No futuro, Ionic pretende tornar-se mais agnóstico, a fim de apoiar uma ampla variedade de frameworks JavaScript.
+**Ionic actualmente requiere AngularJS con el fin de trabajar a su máximo potencial.** Mientras puede usar la parte CSS del framework, perderá poderosas interacciones de la interfaz de usuario como gestos, animaciones y otras cosas. No futuro, Ionic tiene como objetivo llegar a ser más agnóstico con el fin de soportar una amplia variedad de frameworks de JavaScript.
 
-## Como Ionic é licenciado?
+## Que licencia tiene Ionic?
 
-Ionic é completamente livre e de código aberto, lançado sob a licença permissiva [MIT](http://opensource.org/licenses/MIT), o que significa que você pode usar Ionic em projetos pessoais ou comerciais livremente. Por exemplo, o MIT é a mesma licença usada por tais projetos populares como jQuery e Ruby on Rails.
+Ionic es totalmente gratuito y de código abierto, liberado bajo una licencia permisiva [MIT](http://opensource.org/licenses/MIT), lo que significa que puede utilizar Ionic en proyectos personales o comerciales libremente. Por ejemplo, el MIT es la misma licencia utilizada por proyectos tan populares como jQuery y Ruby on Rails
 
 Este conteúdo do site e documentação (encontrado no repo [ionic-site](https://github.com/driftyco/ionic-site)) é licenciado sob a licença Apache 2.
 
 ## O que é Ionic CLI?
 
-O [CLI](../../glossario.md), ou interface de linha de comando, é uma ferramenta que fornece uma série de comandos úteis para desenvolvedores Ionic. Além de instalar e atualizar Ionic, o CLI vem com um  servidor de desenvolvimento, construção e ferramentas de depuração, e muito mais. Se você estiver usando a Plataforma Ionic, o CLI pode ser usado para exportar o código e até mesmo interagir com a sua conta por meio de programação.
-
+O [CLI](../../glossario.md), o interfaz de línea de comandos, es una herramienta que proporciona una serie de comandos útiles para los desarrolladores Ionic. Además de instalar y actualizar Ionic CLI viene con un servidor de desarrollo, construcción y herramientas de depuración, y mucho más. Si está utilizando la plataforma Ionic, la CLI se puede utilizar para exportar el código e incluso interactuar con su cuenta mediante programación.
 ## O que são componentes?
 
-Componentes em Ionic são elementos de interface do usuário reutilizáveis que servem como blocos de construção para seu aplicativo móvel. Componentes são feitos de HTML, CSS, e as vezes JavaScript. Cada componente Ionic se adapta a plataforma na qual seu aplicativo está sendo executado. Chamamos isso de **Platform Continuity** e vai mais a fundo sobre como ele funciona em Theming.
+omponentes iónicos son elementos de la interfaz de usuario reutilizables que sirven como bloques de construcción para su aplicación móvil. Los componentes están hechos de HTML, CSS y JavaScript veces. Cada componente Ionic se ajusta a la plataforma en la que se ejecuta la aplicación. Lo llamamos **Plataforma de continuidad** y va más profundamente acerca de cómo funciona en la tematización.
 
-## O que é theming?
+## Que es el theming?
 
-Os temas (theming) são conjuntos de estilos que são aplicados a um aplicativo. Ionic utiliza um tema claro por padrão, mas ele também vem com um tema escuro. Além de theming, **Platform Continuity** do Ionic permite os componentes terem estilos específicos da plataforma. Isto significa que os estilos do aplicativo será alterada com base na plataforma (iOS, Android, etc.) em que está sendo executado, oferecendo a seus usuários uma experiência com a qual está familiarizado.
+Temas (tematización) son un conjunto de estilos que se aplican a una aplicación. Ionic utiliza un tema claro de forma predeterminada, pero también viene con un tema oscuro. Además de la tematización, **Plataforma de continuidad** de la base iónica permite que los componentes tienen estilos específicos de plataforma. Esto significa que la aplicación de estilos va a cambiar en función de la plataforma (iOS, Android, etc.) que se está ejecutando, que ofrece a sus usuarios una experiencia con la que está familiarizado
 
-## Como funciona a navegação?
+## Como funciona la navegación?
 
 Navegação funciona como uma pilha - **push** uma página para a pilha para navegar até ele, e **pop** para voltar. Modais e alertas também podem ser exibidos, empurrando-os para a pilha de navegação.
 
-## Quem está por trás do Ionic?
+Navegación funciona como una pila - **push** una página a la pila para navegar hacia él, y el pop **pop** para volver. Modal y alertas también se pueden mostrar empujándolos a la pila de navegación.
 
-Ionic foi originalmente construído por [@benjsperry](https://twitter.com/benjsperry), [@adamdbradley](https://twitter.com/adamdbradley) e [@maxlynch](https://twitter.com/maxlynch). Depois de lançar uma versão alfa do Ionic em Novembro de 2013, lançou uma versão 1.0 beta em Março de 2014 e uma 1.0 final em Maio 2015.
+## Quien está detrás de Ionic?
 
-Agora, Ionic tem uma comunidade internacional maciça de desenvolvedores e colaboradores que impulsionam seu crescimento e adoção. As empresas pequenas e grandes estão usando Ionic para criar aplicativos melhores, mais rápido. Em 2015 os desenvolvedores Ionic teria criado mais de 1.3M aplicativos com o Ionic, um número que continua a crescer a cada dia.
+Ionic fue construido originalmente por [@benjsperry](https://twitter.com/benjsperry), [@adamdbradley](https://twitter.com/adamdbradley) e [@maxlynch](https://twitter.com/maxlynch). Después de lanzar una versión alfa Ionic, en noviembre de 2013, se lanzó una versión beta 1.0 en de marzo de 2014 y una final de 1,0 en mayo de 2015.
+
+Ahora Ionic tiene una comunidad internacional masiva de desarrolladores y colaboradores que impulsan el crecimiento y la adopción. Pequeñas y grandes empresas están utilizando Ionic para crear mejores aplicaciones más rápido. En 2015 los desarrolladores Ionic han creado más de 1,3 millones de aplicaciones con Ionic, un número que sigue creciendo cada día.

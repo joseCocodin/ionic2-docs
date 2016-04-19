@@ -1,4 +1,4 @@
-# Documentação Ionic 2
+# Documentación Ionic 2
 
 
 ## Capítulos  
@@ -81,14 +81,14 @@
 3.41 Vibration
 
 ####4. Temas  
-4.1 [Introdução](chapters/04-temas/4a-intro.md)  
-4.2 [Tematizando seu aplicativo](chapters/04-temas/4b-theming-your-ionic-app.md)  
-4.3 [Variáveis SASS](chapters/04-temas/4c-sass-variables.md)  
-4.4 [Estilos das plataformas](chapters/04-temas/4d-platform-vars.md)  
-4.5 [Sobreescrevendo variáveis do Ionic](chapters/04-temas/4e-overriding-ionic-variables.md)
+4.1 [Introdución](chapters/04-temas/4a-intro.md)  
+4.2 [Tematización de su App](chapters/04-temas/4b-theming-your-ionic-app.md)  
+4.3 [Variables SASS](chapters/04-temas/4c-sass-variables.md)  
+4.4 [Estilos de las plataformas](chapters/04-temas/4d-platform-vars.md)  
+4.5 [Sobrescribiendo variables de Ionic](chapters/04-temas/4e-overriding-ionic-variables.md)
 
 ####5. CLI  
-5.1 [Introdução](chapters/05-cli/5a-intro.md)   
+5.1 [Introdución](chapters/05-cli/5a-intro.md)   
 5.2 [`build`](chapters/05-cli/5b-build.md)  
 5.3 [`emulate`](chapters/05-cli/5c-emulate.md)  
 5.4 [`generate`](chapters/05-cli/5d-generate.md)  
@@ -105,7 +105,7 @@
 
 ####8. Recursos > Resources  
 8.1 Developer Tips  
-8.2 [Glossário](chapters/08-recursos/08b-ionic-developer-glossary.md)  
+8.2 [Glosario](chapters/08-recursos/08b-ionic-developer-glossary.md)  
 8.3 Ionicons  
 8.4 [Editores e IDEs](chapters/08-recursos/08d-editors-and-ides.md)   
 8.5 [Usando NPM](chapters/08-recursos/08e-using-npm.md)  
@@ -113,13 +113,13 @@
 - *linkar em cada capítulo o caminho correto para o arquivo.md*
 
 
-## Contribuindo com a tradução  
+## Contribuyendo a la traducción
 
-[Aqui](https://github.com/IonicBrazil/ionic2-docs/blob/master/CONTRIBUTING.md) você pode visualizar o nosso guia de contribuição.  
+[Aqui](https://github.com/IonicBrazil/ionic2-docs/blob/master/CONTRIBUTING.md) puede ver nuestra guía de aporte.
 
-Além disso, confira nosso [glossário](https://github.com/IonicBrazil/ionic2-docs/blob/master/glossario.md) para termos técnicos em inglês e suas traduções PT-BR.
+Además, echa un vistazo a nuestra [glossário](https://github.com/IonicBrazil/ionic2-docs/blob/master/glossario.md) para los términos técnicos en Inglés y sus traducciones ES.
 
 
 ## Informações  
 
-* Documentação em [inglês](http://ionicframework.com/docs/v2/)
+* Documentación en [inglês](http://ionicframework.com/docs/v2/)

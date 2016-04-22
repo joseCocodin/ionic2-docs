@@ -7,11 +7,11 @@
 0.1 [Home](/chapters/00-home)
 
 ####1. Introdução
-1.1 [Bienvenida](chapters/01-introducao/01a-welcome.md)   
+1.1 [Bienvenida](chapters/01-introduccion/01a-welcome.md)   
 1.2 [Instalación](chapters/01-introducao/01b-instalation.md)   
-1.3 [Tutorial](chapters/01-introducao/01c-tutorial.md)  
-1.4 [Conceptos de migración](chapters/01-introducao/01d-migration.md)  
-1.5 [Conceptos](chapters/01-introducao/01e-core-concepts.md)  
+1.3 [Tutorial](chapters/01-introduccion/01c-tutorial.md)  
+1.4 [Conceptos de migración](chapters/01-introduccion/01d-migration.md)  
+1.5 [Conceptos](chapters/01-introduccion/01e-core-concepts.md)  
 
 ####2. Componentes    
 2.1 [Overview](chapters/02-componentes/2a-overview.md)   
@@ -115,9 +115,9 @@
 
 ## Contribuyendo a la traducción
 
-[Aqui](https://github.com/IonicBrazil/ionic2-docs/blob/master/CONTRIBUTING.md) puede ver nuestra guía de aporte.
+[Aqui](https://github.com/joseCocodin/ionic2-docs-ES/blob/master/CONTRIBUTING.md) puede ver nuestra guía de aporte.
 
-Además, echa un vistazo a nuestra [glossário](https://github.com/IonicBrazil/ionic2-docs/blob/master/glossario.md) para los términos técnicos en Inglés y sus traducciones ES.
+Además, echa un vistazo a nuestra [glossário](https://github.com/joseCocodin/ionic2-docs-ES/blob/master/glossario.md) para los términos técnicos en Inglés y sus traducciones ES.
 
 
 ## Informações  

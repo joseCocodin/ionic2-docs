@@ -8,7 +8,7 @@
 
 ####1. Introducción
 1.1 [Bienvenida](chapters/01-introduccion/01a-welcome.md)   
-1.2 [Instalación](chapters/01-introduccion/01b-instalation.md)   
+1.2 [Instalación](chapters/01-introduccion/01b-instalacion.md)   
 1.3 [Tutorial](chapters/01-introduccion/01c-tutorial.md)  
 1.4 [Conceptos de migración](chapters/01-introduccion/01d-migration.md)  
 1.5 [Conceptos](chapters/01-introduccion/01e-core-concepts.md)  

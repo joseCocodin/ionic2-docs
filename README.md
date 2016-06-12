@@ -3,8 +3,8 @@
 
 ## Capítulos  
 
-####0. Home
-0.1 [Home](/chapters/00-home)
+####0. Inicio
+0.1 [Introdución](/chapters/00-intro/00-intro.md)
 
 ####1. Introducción
 1.1 [Bienvenida](chapters/01-introduccion/01a-welcome.md)   
@@ -14,7 +14,7 @@
 1.5 [Conceptos](chapters/01-introduccion/01e-core-concepts.md)  
 
 ####2. Componentes    
-2.1 [Overview](chapters/02-componentes/2a-overview.md)   
+2.1 [Introdución](chapters/02-componentes/2a-intro.md)   
 2.2 [Action Sheets](chapters/02-componentes/2b-action-sheets.md)  
 2.3 Alerts  
 2.4 Badges  
@@ -120,6 +120,6 @@
 Además, echa un vistazo a nuestra [glossário](https://github.com/joseCocodin/ionic2-docs-ES/blob/master/glossario.md) para los términos técnicos en Inglés y sus traducciones ES.
 
 
-## Informações  
+## Información  
 
 * Documentación en [inglês](http://ionicframework.com/docs/v2/)

@@ -1,0 +1,4 @@
+Componentes
+-----------
+
+Las aplicaciones de Ionic están hechas de bloques de alto nivel llamados componentes. Los componentes le permiten construir una interfaz rápidamente para su aplicación. Ionic viene con un número de componentes, incluyendo ventanas modales, ventanas emergentes y contenedores (cards). Aunque los componentes son básicamente HTML y CSS, algunos componentes también incluyen funcionalidad Javascript. Revisa los ejemplos de abajo para ver como son cada componente y para aprender a usarlos. Una vez se familiarize con lo básico, diríjase a la documentación del API para obtener ideas de como personalizar cada componente.

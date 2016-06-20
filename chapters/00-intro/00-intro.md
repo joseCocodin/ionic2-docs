@@ -1,4 +1,4 @@
-# 0.0 IÓNICA DOCS
+# 0.0 Ionic Documentación
 
 
 [Arranque] (/ capítulos / 01-introducción / 01a-welcome.md)

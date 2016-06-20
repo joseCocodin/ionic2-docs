@@ -1,21 +1,25 @@
 # Alertas
 
-Alertas são uma ótima forma de oferecer ao usuário a habilidade de escolher uma ação específica ou uma lista de ações. Eles também podem prover ao usuário importantes informações ou requerer dele que tome uma decisão (ou várias decisões).
+Las alertas son una buena forma de ofrecer al usuario la habilidad de elegir una acción específica o una lista de acciones.
+También pueden ofrecer al usuario información importante, o solicitarles tomar una decisión (o múltiples decisiones).
 
-De uma perspectiva de interface de usuário, você pode imaginar os alertas como um tipo de modal flutuante, que cobre apenas uma parte da tela. Isso significa que alertas apenas podem ser usados para rápidas ações como verificaçao de senhas, pequenas notificações ou ações rápidas. O fluxo mais complexo do usuário deve ser reservado para os [modais](/chapters/02-componentes/) de tela cheia.
+Desde una perspectiva de UI, puede pensar de las alertas como un tipo de ventana modal, que cubren solo una porción de la pantalla.
+Esto significa que las alertas deberian solo ser usadas para acciones rápidas como verificación de contraseñas, pequeñas notificaciones 
+de la applicación ó opciones rápidas. Profundizando, el control del usuario, debería estar reservado para modales con pantalla completa.
 
-Alertas são bastante flexíveis, e podem ser customizados facilmente. Dê uma olhada em [API docs](/chapters/07-api/) para mais informações.
+Las alertas son bastante flexibles, y pueden ser personalizadas fácilmente. Compruebe la documentación del API para más información.
 
-* Contents
-* Basic Alerts
+
+* Contenido
+* Uso básico
 * Prompt Alerts
 * Confirmation Alerts
 * Radio Alerts
 * Checkbox Alerts
 
-## Utilização básica:
+## Uso básico:
 
-Alertas básicos são geralmente usados para notificar o usuário sobre novas informações (uma modificação no app, uma nova funcionalidade), uma situação urgente que requer reconhecimento, ou como uma confirmação para o usuário que uma ação teve sucesso ou não.
+Las alertas básicas son generalmente usadas para notificar al usuario sobre información nueva (un cambio en la app, una nueva característica), una situación de emergencia que necesita conocer, or como confirmación para el usuario que una acción tuvo éxito o no.
 
 ``` ts
 doAlert() {
@@ -28,9 +32,10 @@ doAlert() {
 }
 ```
 
-## Prompt Alerta
+## Prompt Alerts
 
-Prompt Alerta oferece ao usuário uma forma de fazer entrada de dados ou informações. Por exemplo, muitas vezes o Prompt Alerta será usado para perguntar ao usuário por confirmação de sua senha como uma forma de segurança antes de continuar seguindo o fluxo do app.
+Las alerta prompt ofrecen al usuario una forma de introducir datos. Por ejemplo, a menudo las alertas prompt se usarán para preguntar al 
+usuario que confirme la contraseña como medio de seguridad antes de avanzar en el flujo de la app.
 
 
 ``` ts
@@ -60,9 +65,9 @@ let prompt = Alert.create({
 });
 ```
 
-## Alertas de confirmação
+## Confirmation Alerts
 
-Alertas de Confirmação são usados quando é requerido explicitamente que o usuário confirme uma certa escolha depois do processamento ser feito no app. Um exemplo comum desse tipo de alerta é a checagem se o usuário tem certeza se deseja apagar ou remover um contato da sua lista de contatos.
+Las alertas de confirmación son usadas cuando es obligatorio que el usuario confirme explícitamente una elección en particular antes de continuar el proceso en la app. Un ejemplo común de la alerta de confirmación es asegurárse que el usuario quiere borrar un contacto de su lista de contactos.
 
 ``` ts
 let confirm = Alert.create({
@@ -85,9 +90,9 @@ let confirm = Alert.create({
 });
 ```
 
-## Radio Alerta
+## Radio Alerts
 
-Radio Alerta é outro tipo simples de Alerta de Confirmação, porém use esse componente quando quizer oferecer várias escolhas.  Ele oferece ao usuário uma lista de opções à serem escolhidas, mas permite apenas uma escolha final, antes de continuar seguindo em frente.
+Las alertas radio son otro tipo sencillo de alertas de confirmación, pero usan un componente de tipo radio para ofrecer varias opciones. Estas ofrecen al usuario un conjunto de opciones para elegir, pero solo se permite hacer una selección antes de continuar.
 
 ``` ts
 doRadio() {
@@ -111,9 +116,10 @@ doRadio() {
   });
 ```
 
-## Checkbox Alerta
+## Checkbox Alerts
 
-Checkbox Alerta é um outro tipo de Alerta de Confirmação, mas use o componente de Checkbox para oferecer várias escolhas. Ele oferece ao usuário uma lista de opções que podem ser escolhidas.
+Las alertas checkbox son otro tipo sencillo de alertas de confirmación, pero usan un componente checkbox para ofrecer varias opcines. Ofrecen al usuario un conjunto de opciones para elegir.
+
 
 ``` ts
 doCheckbox() {
